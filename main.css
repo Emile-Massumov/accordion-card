@@ -18,15 +18,17 @@ main {
 .content-wrapper {
     margin: 100px 100px;
     display: flex;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
-    border: 3px solid yellow;
-    background-image: url('./images/bg-pattern-desktop.svg');
-    background-color: #fff;
+    background-image: url('./images/bg-pattern-desktop.svg'),
+    url('./images/illustration-woman-online-desktop.svg');
+    background-size: 100%,50%;
     border-radius: 26px;
-    background-image: url('./images/illustration-woman-online-desktop.svg');
     background-repeat: no-repeat;
-    
+    padding-right: 200px;
+    overflow: visible;
+    background-color: #fff;
+    background-position: left -34.375rem top 60%,left -6.25rem center;
     
 }
 
@@ -34,5 +36,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.card-illustration {
+    position: relative;
+    left: -700px;
+    top:-7.5rem
 }
 
