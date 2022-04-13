@@ -37,6 +37,11 @@ main {
     justify-content: center;
     align-items: center;
 }
+.question {
+    background-color: #fff;
+    border-bottom: #fff;
+    border: #fff;
+}
 .card-illustration {
     position: relative;
     left: -700px;
