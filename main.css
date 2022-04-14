@@ -42,8 +42,20 @@ main {
     width: 100%;
     margin: 26px 0 26px 0;
     background-color: #fff;
-    border-bottom: #fff;
     border: #fff;
+    border-bottom: #e7e7e9 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 231, 233);
+    justify-content: space-between;
+}
+button img {
+    padding-left: 50px;
+}
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .card-illustration {
     position: relative;
