@@ -37,6 +37,37 @@ main {
     justify-content: center;
     align-items: center;
 }
+.question.open {
+    font-weight: bold;
+}
+.question.open::after {
+    transform: rotate(180deg);
+}
+.question {
+    display: flex;
+    width: 100%;
+    margin: 26px 0 26px 0;
+    background-color: #fff;
+    border: #fff;
+    border-bottom: #e7e7e9 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 231, 233);
+    justify-content: space-between;
+}
+.question::after {
+    content: '';
+    display: block;
+    margin: 26px 0 26px 0;
+    background-color: #fff;
+    border: #fff;
+    border-bottom: #e7e7e9 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(231, 231, 233);
+    justify-content: space-between;
+    transition: transform 300ms ease-in-out;
+}
 .question {
     display: flex;
     width: 100%;
